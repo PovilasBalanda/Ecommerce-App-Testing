@@ -6,6 +6,8 @@ The E-commerce app code itself is not written by me, I just coded along to a Ude
 
 The files where the code was written by me are located in /tests and /page_objects.
 
+Tests are performed with the CodeceptJS framework.
+
 Steps to run the tests:
 
 1. Install Node.js.
