@@ -13,7 +13,7 @@ Steps to run the tests:
 1. Install Node.js.
 2. Pull the app and test code from the repo.
 3. Install the dependencies through the terminal with "npm install".
-4. Run the app through the terminal with "nodemon index.js".
+4. Run the app through the terminal with "nodemon index.js" or simply through "node index.js".
 5. On a seperate terminal, run the tests with "npm run codeceptjs".
 
 The tests are only written for the sign up and sign in pages for the admin panel.
