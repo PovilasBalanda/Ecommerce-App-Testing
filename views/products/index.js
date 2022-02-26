@@ -15,8 +15,8 @@ module.exports = ({ products }) => { // we're exporting a function that will pri
             </div>
             <footer class="card-footer">
               <form action="/cart/products" method="POST">
-                <input hidden value="${product.id}" name="productId" />
-                <button class="button has-icon is-inverted">
+                <input hidden value="${product.id}" name="productId"/>
+                <button class="button has-icon is-inverted" data-test-id="addToCart">
                   <i class="fa fa-shopping-cart"></i> Add to cart
                 </button>
               </form>

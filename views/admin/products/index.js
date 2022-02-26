@@ -9,14 +9,14 @@ module.exports = ({ products }) => {
         <td>${product.price}</td>
         <td>
           <a href="/admin/products/${product.id}/edit">
-            <button class="button is-link">
+            <button class="button is-link" data-test-id="listEdit">
               Edit
             </button>
           </a>
         </td>
         <td>
           <form method="POST" action="/admin/products/${product.id}/delete">
-            <button class="button is-danger">Delete</button>
+            <button class="button is-danger" data-test-id="listDelete">Delete</button>
           </form>
         </td>
       </tr>
@@ -28,7 +28,7 @@ module.exports = ({ products }) => {
     content: `
       <div class="control">
         <h1 class="subtitle">Products</h1>  
-        <a href="/admin/products/new" class="button is-primary">New Product</a>
+        <a href="/admin/products/new" class="button is-primary" data-test-id="newProductButton">New Product</a>
       </div>
       <table class="table">
         <thead>
