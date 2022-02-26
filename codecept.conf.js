@@ -20,7 +20,8 @@ exports.config = {
   include: {
     I: './steps_file.js',
     signinPage: './page_objects/signinPage',
-    signupPage: './page_objects/signupPage'
+    signupPage: './page_objects/signupPage',
+    mainPage: './page_objects/mainPage'
   },
   bootstrap: null,
   mocha: {},
