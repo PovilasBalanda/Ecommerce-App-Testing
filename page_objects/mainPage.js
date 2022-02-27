@@ -13,6 +13,7 @@ module.exports = {
         productSix: '[data-test-id=addToCart-ed1a0390]',
         productSeven: '[data-test-id=addToCart-5755ac09]',
         productEight: '[data-test-id=addToCart-f6b1fbbc]',
-        productNine: '[data-test-id=addToCart-84d23150]'
+        productNine: '[data-test-id=addToCart-84d23150]',
+        cartButton: '[data-test-id=cartButton]'
     }
 };

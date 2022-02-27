@@ -21,7 +21,8 @@ exports.config = {
     I: './steps_file.js',
     signinPage: './page_objects/signinPage',
     signupPage: './page_objects/signupPage',
-    mainPage: './page_objects/mainPage'
+    mainPage: './page_objects/mainPage',
+    cartPage: './page_objects/cartPage'
   },
   bootstrap: null,
   mocha: {},
